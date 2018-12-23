@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfcfcf">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="30dp">
+        <Button
+            android:id="@+id/koukuan"
+            android:paddingVertical="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="不知道怎么更换自动扣款顺序？"
+
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/lianxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系作者"
+            android:layout_centerHorizontal="true"
+            />
+        <LinearLayout
+            android:layout_below="@+id/lianxi"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/lianxi_zhifubao"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="支付宝"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

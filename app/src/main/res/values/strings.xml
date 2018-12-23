@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">每日红包</string>
+    <string name="shuoming">使用说明：
+        先点领取红包，领到以后返回到本软件然后点使用红包
+        根据领到的红包金额来选择商品进行叠加购买使用红包</string>
+    <string name="shuoming2">
+        本软件完全个人兴趣</string>
+
+    <string name="koukuanshunxu">1.请您登录手机客户端，点击【我的】—【设置】—【支付设置】
+2.点击【扣款顺序】查看，顺序从上至下排序，若您需要调整该付款顺序，您直接按住右边拖动至您想要的顺序即可。</string>
+</resources>
